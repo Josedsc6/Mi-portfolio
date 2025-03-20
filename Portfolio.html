@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | José Manuel Jiménez Serrano</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #8360c3, #2ebf91);
+            color: #fff;
+            margin: 0;
+            padding-bottom: 60px;
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: rgba(0,0,0,0.3);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 15px;
+        }
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #ffeb3b;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ffffff;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        .section, .project {
+            background: rgba(0,0,0,0.5);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            margin-bottom: 25px;
+            transition: transform 0.3s;
+        }
+        .section:hover, .project:hover {
+            transform: scale(1.05);
+        }
+        h1, h2, h3 {
+            color: #ffeb3b;
+        }
+        a {
+            color: #ffeb3b;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background: rgba(0,0,0,0.6);
+            text-align: center;
+            padding: 10px;
+        }
+        .icon {
+            margin-right: 10px;
+            color: #ffeb3b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><i class="fa-solid fa-database"></i> José Manuel Jiménez Serrano</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="sobre-mi" class="section">
+            <h2><i class="fa-solid fa-user icon"></i>Sobre mí</h2>
+            <p><i class="fa-solid fa-graduation-cap icon" style="color:#ff9800;"></i>Soy graduado en Química y actualmente estoy cursando el máster de Data Science, Big Data y Business Analytics en la Universidad Complutense de Madrid, donde estoy desarrollando habilidades avanzadas en análisis de datos, modelado estadístico y aprendizaje automático.</p>
+            <p>📊 Soy un apasionado por los datos y su capacidad para impulsar decisiones estratégicas y optimizar procesos.</p>
+            <p>💡 Proactivo, resolutivo y en constante aprendizaje, disfruto resolviendo problemas y aportando mejoras basadas en el análisis de datos.</p>  
+            <p>🚀 Mi objetivo es aplicar mis conocimientos en un entorno profesional donde pueda seguir creciendo y contribuyendo al éxito de proyectos basados en datos.</p>
+        </section>
+
+        <section id="proyectos" class="section">
+            <h2><i class="fa-solid fa-chart-line icon"></i>Mis Proyectos</h2>
+            <div class="project">
+                <h3>📊 Dashboards en Tableau Public</h3>
+                <ul>
+                    <li><a href="https://public.tableau.com/app/profile/josemanueldsc/viz/Tareafinal_17389398901510/Dashboard" target="_blank">Análisis Easy Loans</a></li>
+                    <li><a href="https://public.tableau.com/app/profile/josemanueldsc/viz/HumanStudyONU_Dashbording_17355913903810/ProyectoONU1990-2021" target="_blank">Proyecto ONU 1990-2021</a></li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3>🔮 Modelo Predictivo</h3>
+                <p>Esta sección será incorporada brevemente con modelos avanzados.</p>
+            </div>
+        </section>
+
+        <section id="contacto" class="section">
+            <h2><i class="fa-solid fa-envelope icon"></i>Contacto</h2>
+            <p><strong>GitHub:</strong> <a href="https://github.com/Josedsc6?tab=projects" target="_blank">José Manuel Jiménez Serrano</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/josemanueljimenezserrano" target="_blank">Mi LinkedIn</a></p>
+            <p><strong>Email:</strong> <a href="mailto:josemanueldsc6@gmail.com">josemanueldsc6@gmail.com</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 José Manuel Jiménez Serrano - Data Scientist</p>
+    </footer>
+</body>
+</html>
